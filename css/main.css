@@ -1,0 +1,69 @@
+
+
+input {
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  position:relative;
+  
+  outline: none;
+  border: 1px solid rgb(190, 190, 190);
+  transition: 0.5s;
+  border-radius: 5px;
+  
+  
+}
+
+
+input:focus {
+  border: 1px solid #0d6efd;
+  box-shadow: 0 0 0 3px rgba(21, 156, 228, 0.4);
+}
+
+h2 {
+  color: #333;
+  padding-bottom: 1.275rem;
+}
+
+label {
+  padding-bottom: 0.875rem;
+}
+
+button {
+  display: block;
+}
+
+form {
+  margin: 10rem auto;
+}
+
+.sort {
+  padding-bottom: 1.275rem;
+}
+
+.chosen {
+  padding-bottom: 1.275rem;
+  
+}
+
+.chosen > div, .sort > div {
+  margin-bottom: 2rem;
+  margin-left: 0.875rem;
+}
+
+
+fieldset {
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  margin: 0 !important;
+}
+
+.mt-14 {
+  margin-top: 15rem;
+}
+
+
+
